@@ -66,5 +66,3 @@ a = [
 
 # for x in a:
 #     print(solution(x))
-text = a[1]
-print(list(range(1, (len(text) // 2) + 1)) + [len(text)])
