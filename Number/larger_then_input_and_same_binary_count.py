@@ -31,9 +31,12 @@ def solution(n):
         return '100만 이하의 자연수를 입력해주세요.'
         
 if __name__ == '__main__':
-    # 78 -> 83
-    # 15 -> 23
-    # 99 -> 101
+    # input: 78
+    # output: 83
+    # input: 15
+    # output: 23
+    # input: 99
+    # output: 101
     while 1:
         test = input()
         if test == 'exit()':
