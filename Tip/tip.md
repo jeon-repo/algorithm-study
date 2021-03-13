@@ -4,3 +4,5 @@
 - input() 보다 빠른 속도로 입력을 받는 방법은  
 'sys.stdin.readline': return을 함수로 사용(람다처럼),  
 'sys.stdin.readline().rstrip()': return을 변수로 사용
+- [range(10)]은 반환값이 [range(0, 10)]  
+[*range(10)]은 반환값이 [1,2,3,4,5,6,7,8,9,10] -> 구조분해 할당으로 받을 수 있음
